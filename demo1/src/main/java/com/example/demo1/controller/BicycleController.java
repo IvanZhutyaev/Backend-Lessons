@@ -5,10 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/test")
-public class TestController {
-    @GetMapping
-    String test(){
-        return "This is test";
-    }
+@RequestMapping("/bicycle")
+public class BicycleController {
+    
 }
