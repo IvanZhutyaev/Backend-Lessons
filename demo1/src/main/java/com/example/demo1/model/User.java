@@ -1,18 +1,17 @@
 package com.example.demo1.model;
 import lombok.*;
 
+import java.sql.Time;
+
 @Getter
 @Setter
-@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@RequiredArgsConstructor
-@EqualsAndHashCode
-@ToString
+
 public class User {
     int id;
     String name;
     int age;
     String country;
     String city;
-}
+    }
