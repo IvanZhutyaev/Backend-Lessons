@@ -170,6 +170,7 @@
 - `@RequiredArgsConstructor` - конструктор для private final полей
 - `@EqualsAndHashCode` - автоматически генерирует методы equals() и hashCode()
 - `@ToString` - автоматически генерирует метод toString()
-
+- `@PathVariable` - переменная пути в URL-адресе
+- `@RequestBody` - тело запроса
 ## Postman
 **
